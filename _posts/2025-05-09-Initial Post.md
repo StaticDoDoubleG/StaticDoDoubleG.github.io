@@ -2,7 +2,7 @@
 layout: post
 title: "Hello World!"
 subtitle: "이 블로그 첫 포스트"
-author: 정적멍머이
+author: The Dogg
 categories: 끄적끄적
 banner:
     image: assets/images/banners/home.jpg
