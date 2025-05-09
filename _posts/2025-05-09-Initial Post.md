@@ -3,7 +3,7 @@ layout: post
 title: "Hello World!"
 subtitle: "이 블로그 첫 포스트"
 author: The Dogg
-categories: 끄적끄적
+categories: General
 banner:
     image: assets/images/banners/home.jpg
 tags: [끄적끄적, 삽질]
