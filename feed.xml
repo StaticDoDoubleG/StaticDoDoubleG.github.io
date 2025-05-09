@@ -1,0 +1,134 @@
+<?xml version="1.0" encoding="utf-8"?><feed xmlns="http://www.w3.org/2005/Atom" ><generator uri="https://jekyllrb.com/" version="4.4.1">Jekyll</generator><link href="https://staticdodoubleg.github.io/feed.xml" rel="self" type="application/atom+xml" /><link href="https://staticdodoubleg.github.io/" rel="alternate" type="text/html" /><updated>2025-05-09T13:25:00+00:00</updated><id>https://staticdodoubleg.github.io/feed.xml</id><title type="html">StaticDogg World</title><subtitle>왈왈 으르렁 컹컹 그르릉</subtitle><entry><title type="html">Hello World!</title><link href="https://staticdodoubleg.github.io/general/2025/05/09/Initial-Post.html" rel="alternate" type="text/html" title="Hello World!" /><published>2025-05-09T00:00:00+00:00</published><updated>2025-05-09T00:00:00+00:00</updated><id>https://staticdodoubleg.github.io/general/2025/05/09/Initial%20Post</id><content type="html" xml:base="https://staticdodoubleg.github.io/general/2025/05/09/Initial-Post.html"><![CDATA[<p>GitHub Pages로 블로그를 만들고 나서 두번째로 쓰는 테스트 글이다.<br />
+정확히는 이 블로그가 GitHub Pages로 만드는 두번째 블로그다.<br />
+그러니까 이 블로그의 첫 글인 셈이다.<br /><br /></p>
+
+<p>원래는 블로그를 하나만 만들려고 했는데<br />
+작성하고 싶은 내용들의 결이 생각보다 괴리가 큰 것 같아서<br />
+여기다가는 대학 과제에 관련된 글이나 실험적인 발상(?) 같은 것들을<br />
+적어 볼 생각이다.<br /><br /></p>
+
+<p>뭐 그래봐야 동일한 주체가 쓰는 글이니<br />
+큰 차이가 날까 싶은 생각도 든다.<br /></p>
+
+<p>아무튼 이 포스트도 의도된 대로 잘 렌더링 되어 기쁘다.<br />
+이를 계기로 기록하는 습관을 좀 더 들이게 되지 않을까.<br /></p>]]></content><author><name>The Dogg</name></author><category term="General" /><category term="끄적끄적" /><category term="삽질" /><summary type="html"><![CDATA[GitHub Pages로 블로그를 만들고 나서 두번째로 쓰는 테스트 글이다. 정확히는 이 블로그가 GitHub Pages로 만드는 두번째 블로그다. 그러니까 이 블로그의 첫 글인 셈이다.]]></summary></entry><entry><title type="html">이동형 서버 만둘기</title><link href="https://staticdodoubleg.github.io/server/2025/05/09/Remote-HA.html" rel="alternate" type="text/html" title="이동형 서버 만둘기" /><published>2025-05-09T00:00:00+00:00</published><updated>2025-05-09T00:00:00+00:00</updated><id>https://staticdodoubleg.github.io/server/2025/05/09/Remote%20HA</id><content type="html" xml:base="https://staticdodoubleg.github.io/server/2025/05/09/Remote-HA.html"><![CDATA[<p>현재 구성한 서버는 고정된 Proxmox 가상화 서버 아래에<br />
+OMV와 Home Assistant Supervised, 그리고 필요에 따라<br />
+Ubuntu나 Windows VM을 돌릴 수 있게 구성되어 있다.<br /></p>
+
+<p>서버는 Deskmini X300을 기반으로 구성되었고,<br />
+CPU와 저장장치의 제원은 아래와 같다.<br />  <br />
+CPU: 5600G<br />
+RAM: SODIMM LPDDR4 32GB<br />
+SSD: NVME SSD1 - KIOXIA 1TB<br />
+     NVME SSD2 -<br /> 
+     SATA1     -<br />
+     SATA2     -<br /></p>
+
+<p>나스로 활용하는 서버이기 때문에 SSD를 증설할 계획이 있었으나<br />
+사용해보니 생각보다 용량을 잡아먹지 않았다.<br />
+스위치 에뮬에 넣을 게임 파일도 각각은 꽤 크지만 수가 적어 차이가 별로 나지 않았고,<br />
+여태 대학 다니며 만들어낸 여러 난잡한 과제물들도 용량이 작았다.<br />
+그나마 유의미하게 활용하는 부분이 즐거운 영상들(…)과 iso, img 파일들을 백업해두는 정도?<br />
+그래도 용량이 남아 앞으로 가족사진을 백업하는 기능을 추가할 생각이다.<br /></p>
+
+<p>저 SATA 자리에 2.5인치 2테라 하드를 하나씩 박아서<br />
+플래시 드라이브 나스와 하드 드라이브 나스를 1개의 본체로 묶는<br />
+아주 깔쌈한 발상도 해봤는데, 아직은 시기상조라는 생각이 든다.<br /></p>
+
+<p>맘같아선 랙을 사서 미크로틱 유선공유기에 AP를 달고<br />
+맥 미니와 데스크탑 셸프에 요즘 핫하다는 nanoKVM을 달아<br />
+냉장고마냥 집에 얌전히 모시는 깔쌈한 구성을 만들고 싶지만<br />
+아직은 간난한 대학생 따리에 불과하기 때문에<br />
+허울뿐인 꿈인 것이다.<br />
+그리고 사실 뭔 용도가 있어서 이런 상상을 하는 건 아니다.<br />
+하는 걸 보면 데미니도 털어서 N100 미니 PC로 긴축 구성해도 충분해 보인다.<br /></p>
+
+<p>무튼 그게 중요한 것은 아니고,<br />
+이런 걸 집에서 돌리는데도 불구하고 뭐 땀시 잔잔바리 쪼꼬미 서버를 또 도입하려고 하느냐
+에 대한 설명이 더 중요하다.<br /></p>
+
+<p>현재 격오지에 갇혀있는 신세임에도 불구하고 원격지 접속을 가능케 하는 서버에 의존하다 보니<br />
+장거리 구간(여기서는 내 휴대용 라우터에서 집의 모뎀까지의 구간)에서의 연결에 문제가 생기면<br />
+꼼짝없이 장애를 겪게 된다.<br /></p>
+
+<p>딱히 회선이 끊겨있지는 않더라도 회선 연결을 위한 요금제의 조건으로 인해<br />
+불량해진다든가(만일 1Mbps나 3Mbps 속도로 원격이나 관리페이지 접속을 해야 한다고 생각해 보자. 끔찍할 것이다.)<br />
+근거는 없지만 이 격오지의 기지국에 연결된 기기들의 우선순위(?)가 있어 품질이 보장되지 않는 증상도 겪었다.<br />
+회선의 신뢰성은 통신사가 책임지는 것이 맞긴 하나<br />
+문득 이런 열악한 환경에서도 서버질을 하고 싶은 생각에<br />
+이동형 서버를 구축하자는 생각을 하게 되었다.<br /></p>
+
+<p>그렇다고 서버를 기존 서버처럼 만들어버리면<br />
+아예 독립적인 서버가 되어 존재 이유가 애매해지기 때문에<br />
+중앙집권적(?)인 구성을 해야 한다.<br />
+집에 있는 서버가 메인 서버이고, 가지고 다닐 이동형 서버는<br />
+이 메인 서버의 데이터 일부를 수용하거나, 로컬에서 저장한 내역을<br />
+메인 서버로 정속 동기화를 할 수 있어야 하고,<br />
+특히나 이 일은 Home Assistant의 원격지 노드를 구성하는 것이 주요한 내용인 만큼<br />
+<a href="https://github.com/custom-components/remote_homeassistant">Remote Home Assistant</a>를 활용해 집에 있는 HA와 엮일 수 있어야 할 것이다.<br />
+Remote Home Assistant가 등록된 기기에 한해서 로컬에서 명령을 수행하고 그 로그를 상위 HA에 보내는지,<br />
+아니면 순전히 집에 구성된 HA 자체에 항상 연결되어 로컬의 장비를 Passthrough 하는 것에 그치는지<br />
+정확히 알아낸 것은 아니지만, 구성해보면 깨달을 수 있을 것이다.<br />
+아무튼 이동형 서버는 집에 있는 서버에 종속된 형태로 구성될 것이다.<br /></p>
+
+<p>이동형 서버는 기본적으로 이동하면서 쓸 수 있어야 한다.<br />
+그렇기 때문에 아래의 조건들을 충족해야 한다.<br /></p>
+
+<ol>
+  <li>셀룰러 망을 이용할 것.<br /></li>
+  <li>일정 시간 동안 독립적인 작동을 보장하기 위해 배터리가 있을 것.<br /></li>
+  <li>저전력일 것.<br /></li>
+  <li>전원 공급을 USB C-Type으로 매개할 것.<br /></li>
+</ol>
+
+<p>그래서 나름 찾아본 제품이 
+<a href="https://ko.aliexpress.com/item/1005006918474581.html?spm=a2g0o.productlist.main.4.262aqJk7qJk7Q0&amp;aem_p4p_detail=2025050902525919203651894526880001710764&amp;algo_pvid=78259f5a-b2d8-4e79-bdd5-26fb6bdcc9b9&amp;algo_exp_id=78259f5a-b2d8-4e79-bdd5-26fb6bdcc9b9-3&amp;pdp_ext_f=%7B%22order%22%3A%22336%22%2C%22eval%22%3A%221%22%7D&amp;pdp_npi=4%40dis%21KRW%21140763%21131108%21%21%21701.52%21653.40%21%402141115b17467843797987667e4907%2112000045324511657%21sea%21KR%214435266465%21X&amp;curPageLogUid=akcNlVGDwlXC&amp;utparam-url=scene%3Asearch%7Cquery_from%3A&amp;search_p4p_id=2025050902525919203651894526880001710764_1">Chatreey T9</a>
+과 
+<a href="https://ko.aliexpress.com/item/1005005954197501.html?spm=a2g0o.cart.0.0.774556bapAIZc3&amp;mp=1&amp;pdp_npi=5%40dis%21KRW%21KRW%20341633%21KRW%20167400%21%21KRW%20167400%21%21%21%4021010d9017467844701782771e1c7c%2112000038723123867%21ct%21KR%214435266465%21%211%210&amp;gatewayAdapt=glo2kor">SZBOX S1</a>이다.<br /></p>
+
+<p>둘 다 저전력인 N100을 탑재한 미니 PC이며,<br />
+전원공급이 C-Type USB로 매개된다.<br />
+물론 미니 PC이기 때문에 PD 같은 걸 생각하고 충전기를 사면 안되고<br />
+해당 미니 PC가 지원하는 전압을 뽑아줄 수 있는 충전기를 사야 한다.<br />
+보통 65W 충전기에 꽂고 많이들 사용하는 것으로 보인다.<br /></p>
+
+<p>뭐 아무튼 보조배터리는 일반적인 충전기보다 다양한 전압을 지원하기 때문에<br />
+72Wh짜리 용량의 Anker 파워뱅크(A1336)를 UPS 마냥 사용할 생각을 했다.<br /></p>
+
+<p>Chatreey T9 N100 Mini PC<br /></p>
+<p>
+ ![Chatreey T9](/assets/images/posts/2025-05-09-Remote HA/T9.jpg)<br />
+</p>
+<p>전자의 경우엔 위에서 봤을 때 약간 정방형인 PC로, 부피 측면에서는 후자보다 덜 깔쌈하나<br />
+크나큰 메리트가 하나 있는데, 그것은 바로 DP Alt를 지원하는 C타입 포트가 1개 더 존재한다는 사실이다.<br />
+즉, 뭔가 문제가 생긴다면 현재 휴대용 모니터 대용으로 쓰고 있는 <br />
+Xreal Air 같은 장비에 물려서 바로 화면을 띄워 볼 수 있다는 것이다.<br />
+다른 옵션이 있긴 하지만, 일단 위 링크의 제품은 램과 SSD가 모두 없는 제품이다.<br />
+제품 값이 13만원 언저리인 만큼 더 싸니 그러려나 한다. 어차피 중국산 램과 SSD는 믿을 것이 못 되니까.<br /></p>
+<p style="text-align: center;">
+    해당 제품에 대한 자세한 리뷰<br />
+</p>
+<style>.embed-container { position: relative; padding-bottom: 56.25%; height: 0; overflow: hidden; max-width: 100%; } .embed-container iframe, .embed-container object, .embed-container embed { position: absolute; top: 0; left: 0; width: 100%; height: 100%; }</style>
+<div class="embed-container"><iframe src="https://www.youtube.com/embed/LAJ7S8Vm9RI?si=e5GAakGH-6kHpzPx" frameborder="0" allowfullscreen=""></iframe></div>
+<p><br /></p>
+
+<p>SZBOX S1 N100 Mini PC<br /></p>
+<p>
+ <img src="/assets/images/posts/2025-05-09-Remote HA/S1.jpg" />
+</p>
+<p>후자의 경우엔 iPhone 13 mini와 비슷한 크기의 아주 컴팩트한 PC이다.<br />
+가로폭이 조금 좁고 세로가 길었던 걸로 기억하는데, 뭐 그렇다고 해도 휴대성으론 이걸 압도할 N100 PC가 없을 것이다.<br />
+이 친구는 전원을 받는 C타입 포트 단 하나만 있어서, 직접 점검한다 친다면 모니터 전원과 HDMI 선을 주렁주렁 달아야 한다.<br />
+그런 점검 없이 평상시에 돌린다면, 즉 정상적으로 작동하기만 한다면 아주 완벽한 제품이다.<br />
+해당 제품은 램은 온보드에 박혀있고 SSD 선택만 할 수 있는데,<br />
+기본이 12GB라 해도 CPU가 4코어 4스레드인지라 4개의 VM을 돌린다 쳐도 아주 충분할 거란 생각이 든다.<br />
+대충 생각해보면 OMV에 1코어 2GB, HA에 1코어 2GB, 공인인증서 관련 업무용 윈도우 VM 2코어 8GB 정도 하면<br />
+내 기준에선 이 서버에게서 기대할 수 있는 구성의 전부다.<br />
+다만 치명적인 단점이 있는데 슬림한 만큼 열이 좀 더 나며, 이에 따른 팬 소음이 어느정도 수반된다는 것이다.<br /></p>
+<p style="text-align: center;">
+    해당 제품에 대한 자세한 리뷰<br />
+</p>
+
+<style>.embed-container { position: relative; padding-bottom: 56.25%; height: 0; overflow: hidden; max-width: 100%; } .embed-container iframe, .embed-container object, .embed-container embed { position: absolute; top: 0; left: 0; width: 100%; height: 100%; }</style>
+<div class="embed-container"><iframe src="https://www.youtube.com/embed/41jfgYdJ9fE?si=y5tH_pFsTONDI-08" frameborder="0" allowfullscreen=""></iframe></div>
+<p><br /></p>]]></content><author><name>The Dogg</name></author><category term="Server" /><category term="발상" /><category term="삽질" /><category term="서버" /><category term="IoT" /><summary type="html"><![CDATA[현재 구성한 서버는 고정된 Proxmox 가상화 서버 아래에 OMV와 Home Assistant Supervised, 그리고 필요에 따라 Ubuntu나 Windows VM을 돌릴 수 있게 구성되어 있다.]]></summary></entry></feed>
