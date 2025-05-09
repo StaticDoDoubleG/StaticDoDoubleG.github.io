@@ -1,7 +1,7 @@
 ---
 layout: home
 title: Home
-banner: "/assets/images/banners/General Wallpaper.jpg"
-heading: "Nveloper's Note"
-subheading: '보고 배운 것들을 기록합니다.'
+banner: "/assets/images/banners/Initial Wallpaper.jpg"
+heading: "정적멍머이의 블로그"
+subheading: '웰컴 투 더 끄적끄적월드'
 ---
