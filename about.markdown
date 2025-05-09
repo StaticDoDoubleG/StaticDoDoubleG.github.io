@@ -22,7 +22,7 @@ title: "About"
     좋게 봐주시면 감사하겠읍니다.<br>
 </p>
 
-</p>
+<p>
     구현물 및 이력은 이곳에서 볼 수 있습니다.<br>
     <a href="https://github.com/StaticDoDoubleG">GitHub Page | 정적멍머이의 깃허브 페이지</a>
     <br><br>
@@ -30,6 +30,6 @@ title: "About"
     <a href="https://github.com/nveloper">GitHub Page | Nveloper의 깃허브 페이지</a><br>
 </p>
 
-</p>    
+<p>    
     Deployed on May 9th 2025<br>
 </p>
