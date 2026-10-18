@@ -3,7 +3,7 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0, interactive-widget=resizes-content">
-    <title id="page-title">DB-less Wiki</title>
+    <title id="page-title">StaticDoDoubleG's Blog</title>
     <link id="page-favicon" rel="icon" href="">
     <link id="page-apple-icon" rel="apple-touch-icon" href="">
     <script>
@@ -56,7 +56,8 @@
         <script>
             try {
                 const config = JSON.parse(localStorage.getItem('siteConfig')) || {};
-                document.getElementById('page-title').textContent = config.siteTitle || 'DB-less Wiki';
+                document.getElementById('app-title').textContent = config.siteTitle || 'StaticDoDoubleG\'s Blog';
+                document.getElementById('page-title').textContent = config.siteTitle || 'StaticDoDoubleG\'s Blog';
             } catch (e) {}
         </script>
         <div class="spacer"></div>
