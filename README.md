@@ -1,12 +1,5 @@
-# PrivateWiki-Lite
-Lighter Private Wiki. For Github Pages.
-
-## Usage
+# 피곤한 나에 블로그
 
 ## Link
-### This Page
-https://nveloper.github.io/PrivateWiki-Lite
-### Full Version Demo
-https://nveloper.github.io/PrivateWiki
-### Legacy(DB Integrated)
-Coming Soon!
+### 이거 만든 놈
+https://nveloper.github.io
