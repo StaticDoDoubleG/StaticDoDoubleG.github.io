@@ -1,4 +1,4 @@
-# Deep Learning and Training Stability
+# 4. Deep Learning and Training Stability
 
 ## 1. Depth and Hierarchical Representation
 

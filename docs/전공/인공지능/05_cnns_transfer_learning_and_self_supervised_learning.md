@@ -1,4 +1,4 @@
-# CNNs, Transfer Learning, and Self-Supervised Learning
+# 5. CNNs, Transfer Learning, and Self-Supervised Learning
 
 ## 1. Why MLPs Struggle with Images
 

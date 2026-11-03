@@ -1,4 +1,4 @@
-# Transformers and Modern Sequence Processing
+# 8. Transformers and Modern Sequence Processing
 
 ## 1. From RNNs to Transformers
 

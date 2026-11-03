@@ -1,4 +1,4 @@
-# Seq2Seq, Generation, Evaluation, and Attention
+# 7. Seq2Seq, Generation, Evaluation, and Attention
 
 ## 1. Encoder-Decoder Architecture
 

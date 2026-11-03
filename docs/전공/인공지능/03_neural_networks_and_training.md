@@ -1,8 +1,8 @@
-# Neural Network Computation and Training
+# 3. Neural Network Computation and Training
 
-## 1. Perceptrons and Neurons
-
-인공 뉴런은 입력의 가중합에 편향을 더한 뒤 활성화 함수를 적용한다.
+## Perceptrons and Neurons
+사람들은 지능을 모사하기 위해 생체 뉴런을 본따 뉴런 모델을 만들었다.
+이렇게 만들어진 인공 뉴런은 입력의 가중합에 편향을 더한 뒤 활성화 함수를 적용한다.
 
 $$z=w^Tx+b, \qquad a=f(z)$$
 

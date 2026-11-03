@@ -1,4 +1,4 @@
-# Sequence Modeling with RNNs, LSTMs, and GRUs
+# 6. Sequence Modeling with RNNs, LSTMs, and GRUs
 
 ## 1. When Order Carries Meaning
 
